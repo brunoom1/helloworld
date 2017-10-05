@@ -1,0 +1,2 @@
+#!/bin/bash
+for FILE in `find ./bin/*`; do test -f $file && if test -x $FILE; then echo "" && echo $FILE && echo ""; time ./$FILE; fi; done
